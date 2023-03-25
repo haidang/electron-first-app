@@ -8,7 +8,7 @@
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
-    "publish": "eval $(grep '^GITHUB_TOKEN' .env) && electron-forge publish",
+    "publish": "GITHUB_TOKEN=$(grep GITHUB_TOKEN .env | cut -d '=' -f2) && electron-forge publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
