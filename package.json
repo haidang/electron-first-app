@@ -1,0 +1,22 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "description": "learning electron first app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haidang/electron-first-app.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Dang Thach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haidang/electron-first-app/issues"
+  },
+  "homepage": "https://github.com/haidang/electron-first-app#readme"
+}
