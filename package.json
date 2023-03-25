@@ -2,8 +2,9 @@
   "name": "first-app",
   "version": "1.0.0",
   "description": "learning electron first app",
-  "main": "index.js",
+  "main": "main.cjs",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/haidang/electron-first-app/issues"
   },
-  "homepage": "https://github.com/haidang/electron-first-app#readme"
+  "homepage": "https://github.com/haidang/electron-first-app#readme",
+  "devDependencies": {
+    "electron": "^23.2.0"
+  }
 }
